@@ -1,0 +1,20 @@
+Connection:
+    Domain: https://upmcenterprises.atlassian.net
+    Username: wellsj7@upmc.edu
+    Password: SK56tbjC6PayotPlnIGN39B6
+Query: project = myupmc or project = rocket or project = horizon or project = gemini or project = imperial or project = Nova
+Workflow: 
+    New: New
+    Pre-Grooming: Pre-Grooming
+    Grooming: Grooming
+    Ready: Ready
+    In Progress: In Progress
+    Design Review: Design Review
+    Integration/Testing: Integration/Testing
+    Done: Done
+    Accepted: Accepted
+Output:
+    Quantiles:
+    - 0.5
+    - 0.75
+    - 0.95

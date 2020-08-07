@@ -15,4 +15,4 @@ for config in $(ls /config/*) ; do
         rm ${output}/*
         jira-agile-metrics -vv --output-directory ${output} $@ ${config} 2>&1 | tee ${output}/metrics.log
     fi
-done
+doneen  

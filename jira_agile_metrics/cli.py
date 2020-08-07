@@ -66,6 +66,7 @@ def run_command_line(parser, args):
         return
     
     logging.basicConfig(
+        filename=parser.output_directory + '/out.log',
         format='[%(asctime)s %(levelname)s] %(message)s',
         datefmt='%Y-%m-%d %H:%M:%S',
         level=(
